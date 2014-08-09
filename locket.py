@@ -52,9 +52,6 @@ def save_file(data, filename, suffix=""):
     with open(filename + suffix, 'w') as fh:
         fh.write(data)
 
-def read_file_in_chunks(filename, chunk_size=1024):
-    pass
-
 def main():
 
     cipher = AESCipher()
