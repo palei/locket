@@ -48,7 +48,7 @@ def read_file(filename):
     with open(filename, 'r') as fh:
         return fh.read()
 
-def save_file(data, filename, suffix=None):
+def save_file(data, filename, suffix=""):
     with open(filename + suffix, 'w') as fh:
         fh.write(data)
 
